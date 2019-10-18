@@ -78,6 +78,7 @@ class CategoryRepository{
         app.saveContext()
     }
     
+    
     func update(_ vMCategory:VMCategory) throws {
         //选择表
         let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: VMCategory.entityName)
