@@ -139,6 +139,8 @@ class Repository<T:DataViewModelDelegate> where T:NSObject{
             
         }
     }
+    
+    
     func delete(id: UUID) throws {
         let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: T.entityName)
         fetch.predicate = NSPredicate(format: "id = %@", id.uuidString)
