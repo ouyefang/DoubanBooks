@@ -3,6 +3,7 @@
     <entity name="Book" representedClassName="Book" syncable="YES" codeGenerationType="class">
         <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="authorintro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="binding" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="categoryld" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
@@ -21,7 +22,7 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Book" positionX="-54" positionY="-9" width="128" height="255"/>
         <element name="Category" positionX="-63" positionY="-18" width="128" height="90"/>
-        <element name="Book" positionX="-54" positionY="-9" width="128" height="240"/>
     </elements>
 </model>
